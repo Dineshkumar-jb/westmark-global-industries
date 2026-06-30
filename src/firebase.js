@@ -15,13 +15,13 @@ const CC_CLIENT = true;
 
 // Replace with your actual Firebase config from the Firebase Console
 const firebaseConfig = {
-  apiKey: import.meta.env.VITE_FIREBASE_API_KEY || ["AIzaSyB", "QMLuEaBq", "xzNQFt9H7-", "utSqRFUBCD2hZg"].join(""),
-  authDomain: import.meta.env.VITE_FIREBASE_AUTH_DOMAIN || "westmark-logistics-e8392.firebaseapp.com",
-  projectId: import.meta.env.VITE_FIREBASE_PROJECT_ID || "westmark-logistics-e8392",
-  storageBucket: import.meta.env.VITE_FIREBASE_STORAGE_BUCKET || "westmark-logistics-e8392.firebasestorage.app",
-  messagingSenderId: import.meta.env.VITE_FIREBASE_MESSAGING_SENDER_ID || "504854017969",
-  appId: import.meta.env.VITE_FIREBASE_APP_ID || "1:504854017969:web:713d455999ad01d9b9ef90",
-  measurementId: import.meta.env.VITE_FIREBASE_MEASUREMENT_ID || "G-2QSC0D48RJ"
+  apiKey: import.meta.env.VITE_FIREBASE_API_KEY,
+  authDomain: import.meta.env.VITE_FIREBASE_AUTH_DOMAIN,
+  projectId: import.meta.env.VITE_FIREBASE_PROJECT_ID,
+  storageBucket: import.meta.env.VITE_FIREBASE_STORAGE_BUCKET,
+  messagingSenderId: import.meta.env.VITE_FIREBASE_MESSAGING_SENDER_ID,
+  appId: import.meta.env.VITE_FIREBASE_APP_ID,
+  measurementId: import.meta.env.VITE_FIREBASE_MEASUREMENT_ID
 };
 
 // Initialize Firebase only if config is updated, otherwise fallback to mock/demo modes
