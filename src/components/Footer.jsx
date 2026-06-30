@@ -6,7 +6,7 @@ function Footer() {
     <footer>
       <div className="footer-inner">
         <div className="footer-logo">
-          <img alt="Westmark Global Industries" className="footer-logo-img" src={`${import.meta.env.BASE_URL}assets/westmark-logo.svg`} />
+          <img alt="Westmark Global Industries" className="footer-logo-img" src="/assets/westmark-logo.svg" />
           <span className="brand-lockup">
             <span className="brand-name">WESTMARK</span>
             <span className="brand-subtitle">-Global Industries</span>

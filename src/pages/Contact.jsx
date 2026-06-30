@@ -98,7 +98,7 @@ function Contact() {
 
   const triggerBrochureDownload = () => {
     const link = document.createElement('a');
-    link.href = `${import.meta.env.BASE_URL}assets/westmark-brochure.pdf`;
+    link.href = '/assets/westmark-brochure.pdf';
     link.download = 'Westmark-Global-Industries-Brochure.pdf';
     document.body.appendChild(link);
     link.click();

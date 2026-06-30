@@ -6,7 +6,7 @@ function Navbar() {
     <nav>
       <div className="nav-inner">
         <Link className="brand-link" to="/">
-          <img alt="Westmark Global Industries" className="logo-img" src={`${import.meta.env.BASE_URL}assets/westmark-logo.svg`} />
+          <img alt="Westmark Global Industries" className="logo-img" src="/assets/westmark-logo.svg" />
           <span className="brand-lockup">
             <span className="brand-name">WESTMARK</span>
             <span className="brand-subtitle">-Global Industries</span>
