@@ -1,0 +1,15 @@
+rules_version = '2';
+service cloud.firestore {
+  match /databases/{database}/documents {
+    // Contact form submissions: allow public creation, but deny reads, updates, and deletes
+    match /contacts/{document} {
+      allow create: if true;
+      allow read, update, delete: if false;
+    }
+    
+    // Default fallback: deny all other access
+    match /{document=**} {
+      allow read, write: if false;
+    }
+  }
+}

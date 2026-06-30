@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 520" role="img" aria-labelledby="title">
+  <title id="title">Packaging materials</title>
+  <rect width="800" height="520" fill="#f4f3f3"/>
+  <path d="M176 184 400 76l224 108v220L400 492 176 404Z" fill="#dfba10"/>
+  <path d="M176 184 400 292l224-108M400 292v200" fill="none" stroke="#083335" stroke-width="24" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M176 184v220l224 88 224-88V184L400 76Z" fill="none" stroke="#083335" stroke-width="26" stroke-linejoin="round"/>
+  <path d="M302 122 526 230" stroke="#083335" stroke-width="20" stroke-linecap="round" opacity=".5"/>
+  <rect x="98" y="332" width="190" height="112" rx="18" fill="#25aec3" stroke="#083335" stroke-width="18"/>
+  <path d="M126 370h134M126 408h94" stroke="#f4f3f3" stroke-width="14" stroke-linecap="round"/>
+  <rect x="512" y="332" width="190" height="112" rx="18" fill="#f4f3f3" stroke="#083335" stroke-width="18"/>
+  <path d="M540 370h134M540 408h94" stroke="#25aec3" stroke-width="14" stroke-linecap="round"/>
+</svg>

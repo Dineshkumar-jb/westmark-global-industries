@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 120 500 260" role="img" aria-labelledby="title">
+  <title id="title">Westmark Global Industries logo</title>
+  <rect x="0" y="120" width="500" height="260" fill="#f4f3f3"/>
+  <g fill="none" stroke="#063d3d" stroke-width="26" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M31 170H118L250 287L187 350Z"/>
+    <path d="M469 170H382L250 287L313 350Z"/>
+  </g>
+  <path d="M186 144H314L250 209Z" fill="#063d3d" stroke="#063d3d" stroke-width="6" stroke-linejoin="round"/>
+</svg>

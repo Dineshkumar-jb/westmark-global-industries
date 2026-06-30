@@ -1,0 +1,7 @@
+Westmark Global Industries Brochure - Placeholder File.
+
+To replace this placeholder with your actual PDF brochure:
+1. Rename your PDF brochure file to "westmark-brochure.pdf".
+2. Move it to the "public/assets" folder, overwriting this file.
+
+Once replaced, the Contact page form submission and the download buttons will serve your actual PDF brochure to the users.
